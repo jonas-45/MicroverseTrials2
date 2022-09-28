@@ -1,7 +1,26 @@
 #navbar{
     float: left;
+    padding-right: 10px;
+    padding-bottom: 100%;
 }
 .main-doc{
     float: right;
+    margin-left: 20px;
 
+}
+@media screen and (min-width: 50%) {
+    body{
+        background-color: cyan;
+    }
+}
+header{
+    font-weight: bold;
+    font-size: 25px;
+}
+a.nav-link{
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    border: 1px solid black;
+    text-align: center;
 }

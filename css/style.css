@@ -2,16 +2,21 @@
     float: left;
     padding-right: 10px;
     padding-bottom: 100%;
+    margin-right: 20px;
 }
 .main-doc{
-    float: right;
+    float: left;
     margin-left: 20px;
+    display:block;
 
 }
 @media screen and (min-width: 50%) {
     body{
         background-color: cyan;
     }
+}
+section{
+    padding-left: 10px;
 }
 header{
     font-weight: bold;
@@ -23,4 +28,7 @@ a.nav-link{
     text-decoration: none;
     border: 1px solid black;
     text-align: center;
+}
+ul{
+    padding-left: 10px;
 }
